@@ -1,51 +1,38 @@
 <!DOCTYPE HTML>
-<HTML>
+<html>
     <style>
-       .center {
-        margin: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -ms-transform: translate(-50%, -50%);
-         transform: translate(-50%, -50%);
-    
-         
-}
-      box {
-        margin: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -ms- transform: translate(-50%, -50%);
-         transform: translate(-50%, -50%);
-         height: 200px;
-         width: 400px;
-         border: 3px solid;
-         color: white;
-          
-}
-    body {
-        background-color: black;
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-}
-    h2 {
-        color: red;
-    }
-        
-    
+      
+
+        body {
+            background-color: black;
+            color: white;        
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            margin: 0;
+            position: relative;
+            height: 220px;
+            width: 420px;
+            border: 3px solid white;
+            word-wrap: break-word;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h2 {
+            color: red;
+        }
     </style>
-<box>
-</box>
-<body>
-  <div class="center">
-      <h2> ERROR 404: PAGE NOT FOUND</h2>
-    <p>This error could mean that this page is either non-existent or Is being made, if this error should not happen please contact Jake or Chordavei in our <a href="discord.gg">Discord</a>
-    </p>
-</div>
-</body>
-</HTML>
-
-
+    <body>
+        <div class="container">
+            <h2>ERROR 404: PAGE NOT FOUND</h2>
+            <p>This error could mean that this page is either non-existent or is being made.</p>
+            <p>If this error should not happen, please contact Jake or Chordavei in our <a href="discord.gg" style="color: white;">Discord</a>.</p>
+        </div>
+    </body>
+</html>
