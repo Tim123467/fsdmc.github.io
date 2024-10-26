@@ -52,7 +52,7 @@ h1.welcome-title {
 }
 
 footer {
-    text-align: bottom;
+    position: fixed: bottom: 0;
     color: grey;
     margin-bottom: 30px;
 }
