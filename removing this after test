@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend';
+    background: linear-gradient(to top, #1c1c1c, #3a3a3a, #4f4f4f, #707070);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.welcome-message {
+    text-align: center;
+}
+
+h2.welcome-title {
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+h1.welcome-title {
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.button-container {
+    margin: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-image: linear-gradient(to top, #7dadd3, #65a1e7);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 0 10px;
+    font-size: 1em;
+    transition: background-image 0.3s;
+}
+
+.button:hover {
+    background-image: linear-gradie
+}
+
+footer {
+    position: fixed; bottom: 0;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.footer-text {
+    font-size: 0.9em;
+    text-align: center;
+}
