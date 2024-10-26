@@ -16,39 +16,49 @@ body {
 }
 
 .welcome-message {
+    line-height: 0.85;
     text-align: center;
 }
 
 h2.welcome-title {
-    font-size: 2em;
+    font-size: 2.8125em;
     font-weight: 400;
     margin-bottom: 10px;
 }
 
 h1.welcome-title {
-    font-size: 3em;
-    font-weight: 600;
+    font-size: 5em;
+    font-weight: 400;
     margin-bottom: 10px;
 }
 
+h3.welcome-subtitle {
+    font-size: 1.25em;
+    font-weight: 400;
+    margin-bottom: 10px;
+    line-height: 2;
+}
+
 .button-container {
-    margin: 20px;
+    margin: 35px;
 }
 
 .button {
     display: inline-block;
-    padding: 10px 20px;
-    background-image: linear-gradient(to top, #7dadd3, #65a1e7);
+    padding: 10px 40px;
+    background-image: linear-gradient(to right, #7dadd3, #65a1e7);
     color: white;
     text-decoration: none;
     border-radius: 8px;
     margin: 0 10px;
     font-size: 1em;
-    transition: background-image: 0.3s;
+    transition: background-image 0.3s;
 }
 
 .button:hover {
-    background-image: linear-gradient(to right,#5b9ed4, #3069AB)
+    background-image: linear-gradient(to right, #5b9ed4, #3069ab);
+    ;
+
 }
 
 footer {
