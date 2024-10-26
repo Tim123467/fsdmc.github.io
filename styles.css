@@ -23,24 +23,25 @@ body {
 h2.welcome-title {
     font-size: 2.8125em;
     font-weight: 400;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    line-height: 25px;
 }
 
 h1.welcome-title {
     font-size: 5em;
     font-weight: 400;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 h3.welcome-subtitle {
-    font-size: 1.25em;
+    font-size: 1.2em;
     font-weight: 400;
-    margin-bottom: 10px;
-    line-height: 2;
+    margin-bottom: 0px;
+    line-height: 45px;
 }
 
 .button-container {
-    margin: 35px;
+    margin: 20px;
 }
 
 .button {
