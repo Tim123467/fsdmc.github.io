@@ -38,17 +38,17 @@ h1.welcome-title {
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: linear-gradient(to right, #7dadd3, #65a1e7);
+    background-image: linear-gradient(to top, #7dadd3, #65a1e7);
     color: white;
     text-decoration: none;
     border-radius: 8px;
     margin: 0 10px;
     font-size: 1em;
-    transition: background-color 0.3s;
+    transition: background-image 0.3s;
 }
 
 .button:hover {
-    background-color: #357ABD;
+    background-image: lineargradie
 }
 
 footer {
