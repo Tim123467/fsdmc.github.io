@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Lexend';
-    background: linear-gradient(to top, #1c1c1c, #3a3a3a, #4f4f4f, #707070);
+    background: linear-gradient(to top, #232323, #141414);
     color: #fff;
     display: flex;
     justify-content: center;
@@ -44,11 +44,11 @@ h1.welcome-title {
     border-radius: 8px;
     margin: 0 10px;
     font-size: 1em;
-    transition: background-image 0.3s;
+    transition: background-color: 1s;
 }
 
 .button:hover {
-    background-image: lineargradie
+    background-image: linear-gradient(to right,#5b9ed4, #3069AB)
 }
 
 footer {
