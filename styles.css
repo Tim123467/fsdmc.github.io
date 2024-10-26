@@ -21,20 +21,20 @@ body {
 }
 
 h2.welcome-title {
-    font-size: 15px;
+    font-size: 45px;
     font-weight: 400;
     margin-bottom: 8px;
     line-height: 25px;
 }
 
 h1.welcome-title {
-    font-size: 45px;
+    font-size: 80px;
     font-weight: 400;
     margin-bottom: 0px;
 }
 
 h3.welcome-subtitle {
-    font-size: 5px;
+    font-size: 20px;
     font-weight: 400;
     margin-bottom: 0px;
     line-height: 45px;
