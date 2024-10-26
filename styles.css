@@ -37,7 +37,7 @@ h1.welcome-title {
 
 .button {
     display: inline-block;
-    padding: 5px 10px;
+    padding: 10px 20px;
     background-color: linear-gradient(to right, #7dadd3, #65a1e7);
     color: white;
     text-decoration: none;
