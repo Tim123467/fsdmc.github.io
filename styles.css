@@ -21,7 +21,7 @@ body {
 }
 
 h2.welcome-title {
-    font-size: 444em;
+    font-size: 3em;
     font-weight: 400;
     margin-bottom: 8px;
     line-height: 25px;
@@ -65,7 +65,7 @@ h3.welcome-subtitle {
 
 footer {
     position: fixed; bottom: 0;
-    color: grey;
+    color: red;
     margin-bottom: 30px;
 }
 
