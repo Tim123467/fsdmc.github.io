@@ -1,4 +1,3 @@
-<script>
     const popup = document.getElementById('popup');
     const overlay = document.querySelector('.overlay');
     const agreeButton = document.getElementById('agreeButton');
@@ -21,5 +20,3 @@
     if (!localStorage.getItem('popupDismissed')) {
         showPopup();
     }
-</script>
-</body>
