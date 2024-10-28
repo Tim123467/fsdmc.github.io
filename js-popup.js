@@ -13,8 +13,8 @@
     agreeButton.addEventListener('click', function() {
         popup.style.display = 'none';
         overlay.style.display = 'none';
-         // localStorage.setItem('popupDismissed', 'true'); 
-         // ^ remove once test succeed
+          localStorage.setItem('popupDismissed', 'true'); 
+         // ^ remove the 2 slashes once test succeed
     });
 
     // popup dismissed check
