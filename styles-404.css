@@ -2,8 +2,8 @@ body {
     background-color: black;
     color: white;
     justify-content: left;
-    display: flex;
     align-items: center;
+    display: flex;
     height: 100vh;
     margin: 0;
     font-family: 'Lexend';
@@ -19,5 +19,25 @@ h2 {
 p {
     line-height: 3px;
     font-weight: 400;
+
+}
+.button-container {
+    margin: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 20px;
+    background-image: linear-gradient(to right, #7dadd3, #65a1e7);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    font-size: 1em;
+    transition: background-image 0.3s;
+}
+.button:hover {
+    background-image: linear-gradient(to right, #5b9ed4, #3069ab);
+    ;
 
 }
