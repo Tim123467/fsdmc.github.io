@@ -64,7 +64,7 @@ p.welcome-subtitle {
 }
 
 footer {
-    position: fixed; bottom: 0;
+    position: bottom;
     color: gray;
     margin-bottom: 30px;
 }
