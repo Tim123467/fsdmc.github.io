@@ -9,13 +9,6 @@ body {
     font-family: 'Lexend';
 }
 
-.container {
-    margin-top: 22em;
-    float: left;
-    word-wrap: break-word;
-    padding: 20px;
-}
-
 h2 {
     color: red;
     font-size: 4.5em;
