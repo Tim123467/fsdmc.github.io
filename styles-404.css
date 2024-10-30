@@ -36,6 +36,11 @@ p {
     font-size: 1em;
     transition: background-image 0.3s;
 }
+.icon {
+    position: relative;
+    top: 2px;
+    right: 3px;
+}
 .button:hover {
     background-image: linear-gradient(to right, #5b9ed4, #3069ab);
     ;
