@@ -41,4 +41,13 @@ h1.welcome-title {
     display: none;
 }
 
+footer {
+    position: fixed; bottom: 0;
+    color: gray;
+    margin-bottom: 30px;
+}
 
+.footer-text {
+    font-size: 0.9em;
+    text-align: center;
+}
