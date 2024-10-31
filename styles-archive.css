@@ -54,3 +54,30 @@ footer {
     font-size: 0.9em;
     text-align: center;
 }
+.button-container {
+    margin: 20px;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 25px;
+    background-image: linear-gradient(to right, #7dadd3, #65a1e7);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 0px;
+    font-size: 1em;
+    transition: background-image 0.3s;
+    justify-content: center;
+}
+.icon {
+    position: relative;
+    top: 2px;
+    right: 3px;
+}
+.button:hover {
+    background-image: linear-gradient(to right, #5b9ed4, #3069ab);
+    ;
+
+}
