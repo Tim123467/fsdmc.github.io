@@ -73,3 +73,9 @@ footer {
     font-size: 0.9em;
     text-align: center;
 }
+.icon {
+    position: relative;
+    top: 2px;
+    right: 3px;
+}
+
