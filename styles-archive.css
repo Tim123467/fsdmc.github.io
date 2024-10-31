@@ -7,7 +7,7 @@
 body {
     font-family: 'Lexend';
     background: linear-gradient(to top, #232323, #141414);
-    color: lime;
+    color: #BF77F6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,9 @@ body {
     line-height: 0.85;
     text-align: center;
 }
-
+.subtitle {
+    color: white;
+}
 h2.welcome-title {
     font-size: 3em;
     font-weight: 400;
@@ -35,7 +37,8 @@ h1.welcome-title {
 }
 .game-logos {
     width: 100px;
-    margin: 0 5px;
+    margin: 0 15px;
+    border-radius: 10px;
 }
 .invisible {
     display: none;
