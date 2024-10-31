@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend';
+    background: linear-gradient(to top, #232323, #141414);
+    color: lime;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.welcome-message {
+    line-height: 0.85;
+    text-align: center;
+}
+
+h2.welcome-title {
+    font-size: 3em;
+    font-weight: 400;
+    margin-bottom: 8px;
+    line-height: 25px;
+    padding-top: 1em
+}
+
+h1.welcome-title {
+    font-size: 5em;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.game-logos {
+    width: 100px;
+    margin: 0 5px;
+}
+.invisible {
+    display: none;
+}
+
+
