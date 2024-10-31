@@ -32,7 +32,7 @@ p {
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    margin: 0 10px;
+    margin: 0 0px;
     font-size: 1em;
     transition: background-image 0.3s;
 }
