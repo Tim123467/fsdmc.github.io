@@ -46,7 +46,6 @@ p.welcome-subtitle {
 }
 
 .button {
-    display: inline-block;
     padding: 10px 40px;
     background-image: linear-gradient(to right, #7dadd3, #65a1e7);
     color: white;
@@ -55,6 +54,8 @@ p.welcome-subtitle {
     margin: 0 10px;
     font-size: 1em;
     transition: background-image 0.3s;
+    display: inline-flex;
+    height: 40px;
 }
 
 .button:hover {
@@ -72,4 +73,10 @@ footer {
 .footer-text {
     font-size: 0.9em;
     text-align: center;
+}
+
+.icon {
+    height: 20px;
+    padding-right: 5px;
+    padding-bottom: 4px;
 }
